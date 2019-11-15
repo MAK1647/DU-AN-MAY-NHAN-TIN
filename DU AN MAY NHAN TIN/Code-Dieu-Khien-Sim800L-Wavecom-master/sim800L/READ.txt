@@ -1,0 +1,25 @@
+1.GỬI TIN NHẮN
+-Dùng module sendsms.py
+-Cú pháp : python sendsms.py  (cổng com)  (số điện thoại cần gửi)  (nội dung tin nhắn)
+-Ví dụ: python sendsms.py COM7 0333388917 "HELLO WORLD"
+-Kết quả : Thành công sẽ trả về OK:, Thất bại trả về ERROR:101
+
+2.GỌI ĐIỆN THOẠI
+-Dùng module incall.py
+-Cú pháp : python incall.py  (cổng com) (số điện thoại cần điện)
+-Ví dụ: python incall.py COM7 0333388917
+-Kết quả: Thành công sẽ trả về OK:,Thất bại sẽ trả về ERROR:102
+
+3.HỦY CUỘC ĐIỆN
+-Dùng module endcall.py
+-Cú pháp : python endcall.py (cổng com)
+-Ví dụ: python endcall.py COM7
+-Kết quả: Thành công sẽ trả về OK:,Thất bại sẽ trả về ERROR:103
+
+***************************************************************
+ERROR CODE  *             LỖI                                 *
+***************************************************************
+	101		* Không gửi đc tin nhắn                           *
+    102     * Không gọi đc điện thoại	 		              *
+	103     * Không thể hủy cuộc goi                          *
+***************************************************************	
